@@ -60,18 +60,16 @@ Recent incidents highlight the risks associated with lithium-ion batteries:
 
 ---
 
-<h2 style="display: flex; justify-content: space-between; align-items: center;">
+<h2 style="position: relative;">
   <span>🛠️ Contributing</span>
-  <img src="Logo.png" alt="Logo" width="150" />
+  <img src="Logo.png" alt="Logo" width="150" style="position: absolute; right: 0; top: 50%; transform: translateY(-50%);">
 </h2>
 
-<ul>
-  <li>Omar Sherif El-Sayed Abdelkhaleq</li>
-  <li>Hesham Abd El-Rahman Mahmoud</li>
-  <li>Mohamed Hossam El-Sawy Omran</li>
-  <li>Mina Wael Tanagho Fahmy Sedrak</li>
-  <li>Hesham Elsayed Ahmed Eltaiary</li>
-  <li>Youssef Ibrahim shaban abdelsalam</li>
-  <li>Youssef Mohamed Ibrahim Sayed</li>
-  <li>Youssef Talaat Farouk Ahmed</li>
-</ul>
+- Omar Sherif El-Sayed Abdelkhaleq  
+- Hesham Abd El-Rahman Mahmoud  
+- Mohamed Hossam El-Sawy Omran  
+- Mina Wael Tanagho Fahmy Sedrak  
+- Hesham Elsayed Ahmed Eltaiary  
+- Youssef Ibrahim Shaban Abdelsalam  
+- Youssef Mohamed Ibrahim Sayed  
+- Youssef Talaat Farouk Ahmed
