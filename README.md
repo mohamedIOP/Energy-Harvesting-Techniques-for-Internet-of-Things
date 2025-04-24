@@ -66,7 +66,7 @@ Recent incidents highlight the risks associated with lithium-ion batteries:
   </span>
 </h2>
 
-## Contributers:
+## 🛠️ Contributers:
 
 - Omar Sherif El-Sayed Abdelkhaleq
   
