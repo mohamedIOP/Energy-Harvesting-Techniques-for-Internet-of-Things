@@ -48,13 +48,12 @@ Recent incidents highlight the risks associated with lithium-ion batteries:
 
 ---
 
-## 📎 License
-
-This project is for academic use. Please ensure proper citation when using the contents.
-
----
-
 ## 🛠️ Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
+- Omar Sherif El-Sayed Abdelkhaleq
+- Hesham Abd El-Rahman Mahmoud
+- Mohamed Hossam El-Sawy Omran
+- Mina Wael Tanagho Fahmy Sedrak
+- Hesham Elsayed Ahmed Eltaiary
+- Youssef Ibrahim shaban abdelsalam
+- Youssef Mohamed Ibrahim Sayed
+- Youssef Talaat Farouk Ahmed
