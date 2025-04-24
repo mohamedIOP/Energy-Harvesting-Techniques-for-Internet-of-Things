@@ -5,9 +5,9 @@
 This project explores the current technologies used for energy harvesting in IoT (Internet of Things) edge devices, with a focus on reducing dependency on traditional power sources. 
 
 ### References:
-[1] Fatih Ünlü, Lukas Wawrla, Adriana Díaz (2018). *Energy Harvesting Technologies for IoT Edge Devices*.
+[1] [Fatih Ünlü, Lukas Wawrla, Adriana Díaz (2018). *Energy Harvesting Technologies for IoT Edge Devices*.](https://www.iea-4e.org/wp-content/uploads/publications/2018/07/Energy_Harvesting_Final_Report.pdf)
 
-[2] Teodora Sanislav, George Dan Mois, Sherali Zeadally, Silviu Corneliu Folea (2021). *Energy Harvesting Technologies for IoT Edge Devices*.
+[2] [Teodora Sanislav, George Dan Mois, Sherali Zeadally, Silviu Corneliu Folea (2021). *Energy Harvesting Technologies for IoT Edge Devices*.](https://ieeexplore.ieee.org/document/9370135)
 
 ---
 
@@ -50,7 +50,7 @@ Recent incidents highlight the risks associated with lithium-ion batteries:
 
 [15] H. Rahmani, "Wireless Power for Biomedical Implants", 2017. DOI: [10.13140/RG.2.2.32007.04000](https://doi.org/10.13140/RG.2.2.32007.04000)
 
-[16] Hayt, Kemmerly, Durbin, *Engineering Circuit Analysis*, 9th ed., McGraw-Hill, 2019.
+[16] [Hayt, Kemmerly, Durbin, *Engineering Circuit Analysis*, 9th ed., McGraw-Hill, 2019.](https://elcom-team.com/Subjects/%D8%AF%D9%88%D8%A7%D8%A6%D8%B1%20%D9%83%D9%87%D8%B1%D8%A7%D8%A6%D9%8A%D8%A9%201/%D8%A7%D9%84%D9%83%D8%AA%D8%AA%D8%A8%20%D9%88%D8%A7%D9%84%D8%AD%D9%84%D9%88%D9%84/cct1-book(9ed).pdf)
 
 ---
 
