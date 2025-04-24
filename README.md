@@ -64,11 +64,19 @@ Recent incidents highlight the risks associated with lithium-ion batteries:
 <div style="float: right;">
   <img src="Logo.png" alt="Logo" width="150" />
 </div>
+
 - Omar Sherif El-Sayed Abdelkhaleq
+
 - Hesham Abd El-Rahman Mahmoud
+  
 - Mohamed Hossam El-Sawy Omran
+  
 - Mina Wael Tanagho Fahmy Sedrak
+  
 - Hesham Elsayed Ahmed Eltaiary
+  
 - Youssef Ibrahim shaban abdelsalam
+  
 - Youssef Mohamed Ibrahim Sayed
+  
 - Youssef Talaat Farouk Ahmed
