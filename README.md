@@ -26,7 +26,7 @@ Recent incidents highlight the risks associated with lithium-ion batteries:
 ## 📚 Literature Review
 
 ### Online Sources:
-[6] [Solar Energy for IoT – ResearchGate](https://www.researchgate.net/search.Search.html?query=Solar+Energy+for+IoT&type=publication)
+[6] Optimizing IoT Energy Efficiency with Deep Learning: A Case for Solar-Powered Systems [2025] Authors: Steve Smith, Nisar Ahmad.
 
 [7] [RF Energy Harvester Applications – ResearchGate (2023)](https://www.researchgate.net/publication/378082885_RF%20Energy_Harvester_and_Its_Applications_in_IoT_A_Review)
 
