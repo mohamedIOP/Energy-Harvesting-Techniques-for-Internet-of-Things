@@ -58,6 +58,18 @@ Recent incidents highlight the risks associated with lithium-ion batteries:
 
 [17] C. R. Reddy, K. S. Reddy, S. R. Reddy, "Low Power RF Energy Harvesting System", ICRAECC 2019, India. DOI: [10.1109/ICRAECC43874.2019.8995099](https://doi.org/10.1109/ICRAECC43874.2019.8995099)
 
+[18] [RF-Energy Harvester and Its Applications in IoT: A Review.](https://www.researchgate.net/publication/378082885_RF-Energy_Harvester_and_Its_Applications_in_IoT_A_Review)
+
+[19] [Flexible and wearable healthcare sensors for visual reality health-monitoring.](https://www.sciencedirect.com/science/article/pii/S2096579619300543?via%3Dihub)
+
+[20] [Harnessing Energy for Wearables: A Review of Radio Frequency Energy Harvesting Technologies.](https://www.mdpi.com/1996-1073/16/15/5711)
+
+[21] [Wireless battery-free wearable sweat sensor powered by human motion.](https://www.science.org/doi/10.1126/sciadv.aay9842)
+
+[22] [Piezoelectric energy harvesting for self-powered wearable upper limb applications.](https://onlinelibrary.wiley.com/doi/10.1002/nano.202000242)
+
+[23] [Body-Integrated Self-Powered System for Wearable and Implantable Applications.](https://pubs.acs.org/doi/10.1021/acsnano.9b02233)
+
 ---
 
 <h2>
