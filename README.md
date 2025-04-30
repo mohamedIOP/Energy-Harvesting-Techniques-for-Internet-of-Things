@@ -41,7 +41,15 @@ Energy harvesting (EH) has emerged as a sustainable power alternative for IoT de
 
 ## 📐 Mathematical Modeling and Methodology
 
-The project utilizes a Powercast P2110B chip for RF energy harvesting. LabVIEW and USRP were used to transmit modulated RF signals, and energy harvesting performance was measured. Among the tested modulations, BPSK provided the best efficiency. The section also discusses the use of triboelectric generators for self-powered sensors.
+Here, the RF energy harvesting system is modeled using a series of electrical and differential equations:
+
+- Antenna System: Modeled with a first-order ODE to describe its electromagnetic response.
+
+- Matching Network: A second-order ODE model to maximize power transfer.
+
+- Rectifier: Modeled to convert RF AC to DC using a multi-stage approach.
+
+- Load Consumption: Captures the transient behavior and power delivery using capacitors.
 
 [11] A. Kaur, H. Nagaraja, "RF-energy harvester and its applications in IoT", ICI 2023. DOI: [10.1109/ICI60088.2023.10421418](https://doi.org/10.1109/ICI60088.2023.10421418)
 
@@ -59,17 +67,7 @@ The project utilizes a Powercast P2110B chip for RF energy harvesting. LabVIEW a
 
 ## 🧪 Simulation and Results
 
-Here, the RF energy harvesting system is modeled using a series of electrical and differential equations:
-
-- Antenna System: Modeled with a first-order ODE to describe its electromagnetic response.
-
-- Matching Network: A second-order ODE model to maximize power transfer.
-
-- Rectifier: Modeled to convert RF AC to DC using a multi-stage approach.
-
-- Load Consumption: Captures the transient behavior and power delivery using capacitors.
-
-
+The project utilizes a Powercast P2110B chip for RF energy harvesting. LabVIEW and USRP were used to transmit modulated RF signals, and energy harvesting performance was measured. Among the tested modulations, BPSK provided the best efficiency. The section also discusses the use of triboelectric generators for self-powered sensors.
 
 [17] C. R. Reddy, K. S. Reddy, S. R. Reddy, "Low Power RF Energy Harvesting System", ICRAECC 2019, India. DOI: [10.1109/ICRAECC43874.2019.8995099](https://doi.org/10.1109/ICRAECC43874.2019.8995099)
 
