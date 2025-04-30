@@ -1,10 +1,9 @@
 # 📡 Energy Harvesting Technologies for IoT Edge Devices
 
-## 📖 Introduction
+## 📖 Abstract
 
-This project explores the current technologies used for energy harvesting in IoT (Internet of Things) edge devices, with a focus on reducing dependency on traditional power sources. 
+Traditional IoT devices rely on limited power sources, making them unsuitable for long-term deployment. This section introduces energy harvesting (EH) as a sustainable method to power IoT systems by converting ambient energy—such as solar, thermal, and vibrational—into electrical energy. The aim is to reduce dependency on conventional batteries and achieve autonomous operation using duty cycling strategies.
 
-### References:
 [1] [Fatih Ünlü, Lukas Wawrla, Adriana Díaz (2018). *Energy Harvesting Technologies for IoT Edge Devices*.](https://www.iea-4e.org/wp-content/uploads/publications/2018/07/Energy_Harvesting_Final_Report.pdf)
 
 [2] [Teodora Sanislav, George Dan Mois, Sherali Zeadally, Silviu Corneliu Folea (2021). *Energy Harvesting Technologies for IoT Edge Devices*.](https://ieeexplore.ieee.org/document/9370135)
@@ -13,7 +12,7 @@ This project explores the current technologies used for energy harvesting in IoT
 
 ## ❗ Problem Definition
 
-Recent incidents highlight the risks associated with lithium-ion batteries:
+While EH offers advantages, it suffers from challenges like low efficiency, poor scalability, and integration difficulties. This section outlines the environmental and safety concerns of batteries and emphasizes the need for better energy management systems in IoT.
 
 [3] [Fitbit Fined Over Ionic Smartwatch Burns](https://www.theverge.com/2025/1/23/24350413/fitbit-fine-ionic-smartwatch-burns)
 
@@ -24,6 +23,8 @@ Recent incidents highlight the risks associated with lithium-ion batteries:
 ---
 
 ## 📚 Literature Review
+
+Energy harvesting (EH) has emerged as a sustainable power alternative for IoT devices, aiming to replace or complement traditional batteries. Studies show that ambient energy sources such as solar, RF, thermal, vibrational, and triboelectric can be used to generate sufficient power for low-energy applications. However, literature highlights challenges like low conversion efficiency, intermittent energy availability, and integration issues. RF-based energy harvesting, in particular, has been explored using circuits like the Powercast P2110B, which converts RF signals into usable DC power. Several works propose optimizing antenna matching, rectification stages, and energy management circuits to improve harvesting efficiency. Recent advances also explore hybrid systems and wearable sensors powered solely by ambient sources, enabling real-time, battery-free monitoring solutions.
 
 ### Online Sources:
 [6] Optimizing IoT Energy Efficiency with Deep Learning: A Case for Solar-Powered Systems [2025] Authors: Steve Smith, Nisar Ahmad.
@@ -40,6 +41,8 @@ Recent incidents highlight the risks associated with lithium-ion batteries:
 
 ## 📐 Mathematical Modeling and Methodology
 
+The project utilizes a Powercast P2110B chip for RF energy harvesting. LabVIEW and USRP were used to transmit modulated RF signals, and energy harvesting performance was measured. Among the tested modulations, BPSK provided the best efficiency. The section also discusses the use of triboelectric generators for self-powered sensors.
+
 [11] A. Kaur, H. Nagaraja, "RF-energy harvester and its applications in IoT", ICI 2023. DOI: [10.1109/ICI60088.2023.10421418](https://doi.org/10.1109/ICI60088.2023.10421418)
 
 [12] L.-G. Tran, H.-K. Cha, W.-T. Park, "RF power harvesting", Micro and Nano Systems Letters, 2017. DOI: [10.1186/s40486-017-0051-0](https://doi.org/10.1186/s40486-017-0051-0)
@@ -55,6 +58,18 @@ Recent incidents highlight the risks associated with lithium-ion batteries:
 ---
 
 ## 🧪 Simulation and Results
+
+Here, the RF energy harvesting system is modeled using a series of electrical and differential equations:
+
+- Antenna System: Modeled with a first-order ODE to describe its electromagnetic response.
+
+- Matching Network: A second-order ODE model to maximize power transfer.
+
+- Rectifier: Modeled to convert RF AC to DC using a multi-stage approach.
+
+- Load Consumption: Captures the transient behavior and power delivery using capacitors.
+
+
 
 [17] C. R. Reddy, K. S. Reddy, S. R. Reddy, "Low Power RF Energy Harvesting System", ICRAECC 2019, India. DOI: [10.1109/ICRAECC43874.2019.8995099](https://doi.org/10.1109/ICRAECC43874.2019.8995099)
 
