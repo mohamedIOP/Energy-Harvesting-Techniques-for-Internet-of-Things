@@ -94,6 +94,13 @@ The project utilizes a Powercast P2110B chip for RF energy harvesting. LabVIEW a
 
 ---
 
+<h2>🖼️ Research Poster</h2>
+<iframe src="Report.pdf" width="100%" height="800px">
+    This browser does not support PDFs. Please download the PDF to view it: <a href="Report.pdf">Download PDF</a>
+</iframe>
+
+---
+
 <h2>
   <span style="display: inline-block; width: 150px; text-align: right;">
     <img src="Logo.png" alt="Logo" width="150">
