@@ -27,4 +27,3 @@ title('Digital Output D_{OUT} vs RF Input Power');
 xlabel('RF Input Power (dBm)');
 ylabel('D_{OUT} (Logic Level)');
 ylim([-0.1 1.1]);
->> 
