@@ -97,6 +97,8 @@ The project utilizes a Powercast P2110B chip for RF energy harvesting. LabVIEW a
 
 🌐 [View Report Online](https://mohamediop.github.io/Energy-Harvesting-Techniques-for-Internet-of-Things/)
 
+📄 [Download PDF](Report.pdf)
+
 ---
 
 <h2>
