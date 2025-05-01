@@ -86,9 +86,11 @@ The project utilizes a Powercast P2110B chip for RF energy harvesting. LabVIEW a
 [24] [Body-Integrated Self-Powered System for Wearable and Implantable Applications.](https://pubs.acs.org/doi/10.1021/acsnano.9b02233)
 
 ---
-## 📊 Poster
+# 📊 Poster
 
-![Poster Preview](Poster.pdf)
+[![Poster Preview](poster/preview.png)](poster/poster.pdf)
+
+📄 [Download PDF](poster.pdf)
 
 ---
 
