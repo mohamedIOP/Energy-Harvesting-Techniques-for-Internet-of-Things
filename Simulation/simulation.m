@@ -1,0 +1,38 @@
+% RF Detector Simulation (PZ111B Behavior Approximation)  
+% Ensures only ONE figure appears with subplots.  
+
+clc;          % Clear command window  
+close all;    % Close all previous figures  
+clear all;    % Reset workspace  
+
+disp('Running RF Detector Simulation...');  
+
+% RF Input Power Range (in dBm)  
+rf_dBm = -30:1:10;  
+
+% Analog Output (V_OUT) Model  
+V_OUT = (rf_dBm + 30) * (2 / 40);  
+
+% Digital Output (D_OUT) Model  
+D_OUT = double(rf_dBm > -5);  
+
+% Create a SINGLE figure with subplots  
+figure('Name', 'RF Detector Outputs', 'NumberTitle', 'off');  
+
+subplot(2,1,1);  
+plot(rf_dBm, V_OUT, 'b-', 'LineWidth', 2);  
+grid on;  
+title('Analog Output V_{OUT} vs RF Input Power');  
+xlabel('RF Input Power (dBm)');  
+ylabel('V_{OUT} (V)');  
+ylim([0 2.5]);  
+
+subplot(2,1,2);  
+stem(rf_dBm, D_OUT, 'r', 'LineWidth', 2);  
+grid on;  
+title('Digital Output D_{OUT} vs RF Input Power');  
+xlabel('RF Input Power (dBm)');  
+ylabel('D_{OUT} (Logic Level)');  
+ylim([-0.1 1.1]);  
+
+disp('Simulation completed. Check the figure window.');  
