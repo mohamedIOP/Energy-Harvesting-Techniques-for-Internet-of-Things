@@ -1,0 +1,35 @@
+% RF Detector Simulation (PZ111B Behavior Approximation)
+% This script plots V_OUT and D_OUT vs RF Input Power.
+
+clf;  % Clear existing figures
+clc;  % Clear command window
+
+disp('Running RF Detector Simulation...');
+
+% RF Input Power Range (in dBm)
+rf_dBm = -30:1:10;
+
+% Analog Output (V_OUT) Model: linearly mapped from 0V (-30dBm) to 2V (+10dBm)
+V_OUT = (rf_dBm + 30) * (2 / 40);  % V_OUT = 0V at -30dBm, 2V at +10dBm
+
+% Digital Output (D_OUT) Model: HIGH (1) if rf_dBm > -5 dBm
+D_OUT = double(rf_dBm > -5);  % 1 = High, 0 = Low
+
+% Plot the outputs
+figure;
+
+subplot(2,1,1);
+plot(rf_dBm, V_OUT, 'b-', 'LineWidth', 2);
+grid on;
+title('Analog Output V_{OUT} vs RF Input Power');
+xlabel('RF Input Power (dBm)');
+ylabel('V_{OUT} (V)');
+ylim([0 2.5]);
+
+subplot(2,1,2);
+stem(rf_dBm, D_OUT, 'r', 'LineWidth', 2);
+grid on;
+title('Digital Output D_{OUT} vs RF Input Power');
+xlabel('RF Input Power (dBm)');
+ylabel('D_{OUT} (Logic Level)');
+ylim([-0.1 1.1]);
